@@ -1,5 +1,5 @@
 name: Output event details on issues
-on: issues
+on: [issues,workflow_dispatch]
 jobs:
   j_output:
     runs-on: ubuntu-latest
